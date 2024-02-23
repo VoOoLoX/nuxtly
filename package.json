@@ -1,0 +1,46 @@
+{
+	"name": "nuxtly",
+	"version": "0.1.0",
+	"contributors": [
+		{
+			"name": "Daniel Vulic",
+			"email": "daniel@vooolox.xyz",
+			"url": "https://vooolox.xyz"
+		}
+	],
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"cleanup": "nuxt cleanup",
+		"start": "nuxt start"
+	},
+	"devDependencies": {
+		"@nuxt/devtools": "latest",
+		"@nuxtjs/eslint-config-typescript": "^12.1.0",
+		"@nuxtjs/eslint-module": "^4.1.0",
+		"@typescript-eslint/eslint-plugin": "^7.0.2",
+		"@typescript-eslint/parser": "^7.0.2",
+		"@unocss/nuxt": "^0.58.5",
+		"@unocss/transformer-variant-group": "^0.58.5",
+		"@vue/eslint-config-typescript": "^12.0.0",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-vue": "^9.22.0",
+		"nuxt": "^3.10.3",
+		"prettier": "^3.2.5",
+		"typescript": "^5.3.3",
+		"vue-eslint-parser": "^9.4.2"
+	},
+	"dependencies": {
+		"@formkit/nuxt": "^1.5.9",
+		"@sidebase/nuxt-parse": "^0.3.0",
+		"@unocss/reset": "^0.58.5",
+		"@vueuse/integrations": "^10.8.0",
+		"@vueuse/nuxt": "^10.8.0"
+	}
+}
